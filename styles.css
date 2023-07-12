@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: ;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(34, 255, 97); /* Change the background color */
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #message_el {
+    font-size: 18px;
+    color: #ffffff; /* Change the font color */
+  }
+  
+  #cards_el,
+  #sum_el {
+    font-size: 16px;
+    color: #ffffff; /* Change the font color */
+  }
+  
+  #cards_el::after {
+    content: "";
+    display: block;
+  }
+  
